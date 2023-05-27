@@ -1,5 +1,5 @@
 import React from "react";
-import { FaInstagram, FaLinkedin, FaGithub, FaCodepen } from "react-icons/fa";
+import { FaTelegram, FaLinkedin, FaGithub } from "react-icons/fa";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
@@ -24,33 +24,27 @@ const Footer = () => {
           to find and enjoy their favorite movies and TV shows.
           <hr />
           <br />
-          <p> Made with love for all movie lovers ~ By Shivnandan Jha</p>
+          <p> Made with love for all movie lovers ~ By Russell Masato</p>
           <p>Find me on</p>
         </div>
         <div className="socialIcons">
-          <a href="https://github.com/ShivNandanJha" target="_blank">
+          <a href="https://github.com/Russell1130" target="_blank">
             {" "}
             <span className="icon">
               <FaGithub />
             </span>
           </a>
-          <a href="https://codepen.io/Shivi-Code"  target="_blank" >
+          <a href="https://t.me/RussellMasato"  target="_blank" >
             <span className="icon">
-              <FaCodepen />
+              <FaTelegram />
             </span>
           </a>
-          <a href="https://www.linkedin.com/in/shiv-nandan-jha-4179a4251/" target="_blank">
+          <a href="https://www.linkedin.com/in/russell-masato-165377271/" target="_blank">
             <span className="icon">
               <FaLinkedin />
             </span>{" "}
           </a>
 
-          <a href = "https://www.instagram.com/probably_shiv/" target = "_blank">
-            {" "}
-            <span className="icon">
-              <FaInstagram />
-            </span>
-          </a>
         </div>
       </ContentWrapper>
     </footer>
